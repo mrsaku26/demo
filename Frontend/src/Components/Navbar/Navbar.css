@@ -1,0 +1,78 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15vh;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 8vh;
+}
+.nav-left h2 {
+  background: linear-gradient(#ff0, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 900;
+  font-size: 28px;
+  cursor: pointer;
+}
+.nav-right{
+   position: relative;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   gap: 5vh;
+}
+.nav-right-num{
+   position: absolute;
+   top: -8px;
+   right: -8px;
+   height: 20px;
+   width: 20px;
+   background: red;
+   color: white;
+   border-radius: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   cursor: pointer;
+}
+.navbar a {
+  text-decoration: none;
+  color: inherit;
+}
+.adminss{
+  border: none;
+  outline: none;
+  font-size: 20px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 15px;
+  height: 5vh;
+  width: 13vh;
+  cursor: pointer;
+}
+.cart-icon-wrapper {
+  position: relative;
+}
+.nav-right-num {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+}
+
+@media (max-width:500px) {
+  .navbar{
+    width: 160vh;
+    height: 20vh;
+  }
+  .nav-left h2{
+    font-size: 60px;
+  }
+  .nav-right img{
+    width: 12vh;
+  }
+  .nav-right-num{
+    height:40px;
+   width: 40px;
+   font-size: 40px;
+  }
+}

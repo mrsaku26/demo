@@ -1,0 +1,111 @@
+.login{
+   width: 100%;
+   padding-top: 100px;
+}
+.login-cont{
+   width:500px;
+   height: 400px;
+   padding: 40px 60px;
+   background: white;
+   box-shadow: 0 0 5px 1px black;
+   margin: auto;
+}
+.login-cont h1{
+   font-size: 20px;
+   color: #000000;
+   font-size: 32px;
+   margin: 20px 0px;
+}
+.login-input{
+   display: flex;
+   flex-direction: column;
+   gap: 30px;
+}
+.login-input input{
+   width: 425px;
+   height: 50px;
+   color: #5c5c5c;
+   font-size: 18px;
+   padding-left: 20px;
+   outline: none;
+   border: 1px solid #c9c9c9;
+}
+.login-btn{
+   width: 425px;
+   height: 50px;
+   background: red;
+   margin: 20px 0;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   cursor: pointer;
+}
+.login-btn button{
+   border: none;
+   outline: none;
+   background: red;
+   color: white;
+   font-size: 24px;
+   cursor: pointer;
+}
+.login-signup p{
+   font-weight: 500;
+   font-size: 18px;
+   color: #5c5c5c;
+}
+.login-signup{
+   margin-bottom: 20px;
+}
+.login-signup span{
+   font-weight: 600;
+   color: red;
+}
+.login-policy{
+   color: #5c5c5c;
+   font-size: 18px;
+   display: flex;
+   gap: 30px;
+   font-weight: 500;
+}
+
+@media (max-width:500px) {
+   .login{
+      margin-top: 20vh;
+      margin-left: 10vh;
+      width: 162vh;
+      height: 150vh;
+   }
+   .login-cont h1{
+      font-size: 50px;
+   }
+  .login-cont{
+   width: 800px;
+   height: 600px;
+  }
+  .login-input input{
+   width:700px;
+   height: 80px;
+   font-size: 40px;
+  }
+  .login-btn{
+   width: 700px;
+   height: 70px;
+   font-size: 25px;
+  }
+  .login-btn button{
+   font-size: 25px;
+  }
+  .login-signup p{
+   font-size: 24px;
+  }
+  .login-policy input{
+   height: 5vh;
+   width: 5vh;
+  }
+  .login-policy{
+   display: flex;
+   align-items: center;
+   font-size: 35px;
+   min-width: 300px;
+  }
+}

@@ -1,0 +1,51 @@
+.nnavbar{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 40px 50px;
+   height: 0px;
+   box-shadow: 0 0px 10px -2px black;
+   background: white;
+   margin-bottom: 1px;
+}
+.logo{
+   width: 200px;
+   height: 80px;
+   background: white;
+}
+.profile{
+   height: 80px;
+   width: 75px;
+   background: white;
+}
+.ad-btn{
+   border: none;
+  outline: none;
+  font-size: 20px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 15px;
+  height: 5vh;
+  width: 13vh;
+  cursor: pointer;
+}
+.nnavbar h2{
+   background: linear-gradient(#ff0, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 900;
+  font-size: 28px;
+  cursor: pointer;
+}
+.nnavbar a {
+  text-decoration: none;
+}
+@media (max-width:700px) {
+   .nnavbar{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 107vh;
+      box-shadow: 0 1px 5px -2px black;
+   }
+}
